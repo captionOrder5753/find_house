@@ -1,0 +1,387 @@
+html{
+    font-size: 10px;
+    font-family: "microsoft yahei";
+}
+
+.header{
+    box-sizing: border-box;
+    padding: .6rem 3.4rem ;
+    background-color:#FF8A00;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .logo_img{
+        // outline: 1px solid red;
+        width: 10rem;
+        height: 3rem;
+        background:url(../image/index/logo.jpg)center no-repeat;
+        background-size: contain;
+    }
+    .right{
+        display: flex;
+        align-items: center;
+        .my{
+
+            // outline: 1px solid red;
+            width: 2.4rem;
+            height: 3rem;
+            background:url(../image/index/my.jpg)center no-repeat;
+            background-size: contain;
+    
+        }
+    
+        .download{
+            margin-left:2.2rem ;
+            // outline: 1px solid red;
+            width: 2.3rem;
+            height: 3rem;
+            background:url(../image/index/xiazai.jpg)center no-repeat;
+            background-size: contain;
+    
+        }
+    }    
+
+}
+
+
+
+.footer{
+    width: 100%;
+    background-color: #2F3130;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 0 1.5rem;
+    .footer_title{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        box-sizing: border-box;
+        padding: 1.4rem 0;
+        color: #939494;
+        font-size: 1.6rem;
+        font-weight: bold;
+        border-bottom: 1px solid #3E403F;
+    }
+
+   .port_direction{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  
+    .pors_item{
+
+        display: flex;
+        align-items: center;
+        padding: 1.5rem 0;
+
+        .apple{
+            background:url(../image/index/apple.png)center no-repeat;
+            background-size: contain;
+        }
+        .android{
+
+            background:url(../image/index/android.png)center no-repeat;
+            background-size: contain;
+        }
+        .ports_img{
+            width: 2.3rem;
+            height: 2.3rem;
+            margin-right: 1.5rem;
+           
+        }
+        .ports_dec{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            font-size: 1.4rem;
+            color: #939494;
+        }
+    }
+
+
+   }
+
+   .company_infor{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        font-size: 1.4rem;
+        color: #939494;
+        margin-bottom: 1.7rem;
+   }
+}
+
+
+.routes{
+    display: flex;
+    align-content: center;
+    font-size: 1.4rem;
+    color: #000;
+    margin-left: 2rem;
+    padding: 1.2rem 0;
+}
+
+.home_banner{
+  
+    width: 100%;
+    height: 18.5rem;
+    background:url(../image/rentalList/banner.png)center no-repeat greenyellow;
+    // background-size: contain;
+
+}
+
+.home_description{
+    // background-color: brown;
+    width: 100%;
+    padding-left: 1.7rem;
+    box-sizing: border-box;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+
+   
+    display: flex;
+    justify-content: space-between;
+    .home_txt{
+        width:24.3rem;
+        // padding: 1.5rem 0;
+        padding: 1.2rem 0;
+        font-size: 1.8rem;
+        font-weight: bold;
+        border-right: 1px solid #ccc;
+
+
+    }
+    .attention{
+
+        // height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-right: 1.5rem;
+        // padding: 0 2rem;
+
+        span{
+            font-size: 1.2rem;
+            color: #666666;
+        }
+        .xin{
+            width: 2rem;
+            height: 2rem;
+            background:url(../image/rentalList/xin.png)center no-repeat;
+            background-size: contain;
+        }
+    }
+
+
+}
+
+.home_details{
+
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem 0;
+    border-bottom: 1px solid #ccc;
+
+    & .detail_item:last-child{
+        border: 0;
+    }
+
+    .detail_item{
+        & span:last-child{
+            color: #FF8A00;
+        }
+        // flex-grow: 1;
+        width: 33.3%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        // background-color: hotpink;
+        // outline: 1px solid black;
+        box-sizing: border-box;
+        border-right: 1px solid #ccc;
+    }
+
+
+}
+
+.home_style{
+    width: 100%;
+    padding: 0 2rem;
+    background-color: #fff;
+    box-sizing: border-box;
+    // padding: ;
+    display: flex;
+    flex-direction: column;
+    // align-items: center;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 1rem;
+
+
+    .style_item{
+        display: flex;
+        width: 1005;
+        box-sizing: border-box;
+        padding: 2rem 0;
+        color: #333;
+        font-weight: bold;
+        border-bottom: 1px solid #ccc;
+        font-size: 1.3rem;
+        // justify-content: space-evenly;
+
+        & span:first-child{
+            width: 8.9rem;
+            // background-color: brown;
+            margin-right: 4.8rem;
+        }
+
+    }
+    & .style_item:last-child{
+        border: 0;
+    }
+
+}
+
+.abouts_home{
+    padding: 0  .9rem;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    .about_item{
+        border: 1px solid #ccc;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 1.2rem;
+        .item_title{
+            padding: 1.3rem 0;
+            // background-color: cornflowerblue;
+            border-bottom: 1px solid #ccc;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+         
+                span{
+                    margin-left: 1.6rem;
+                    font-size: 2rem;
+                    color: #FF8A00;
+                    font-weight: bold;
+                }
+
+                .turnRight{
+                    margin-right: 1.3rem;
+                    width: 1.4rem;
+                    height: 2.9rem;
+                    background:url(../image/rentalList/right.png)center no-repeat;
+                    background-size: contain;
+                }
+    
+        }
+
+        .itm_content{
+            width: 100%;
+            box-sizing: border-box;
+            padding: 1.4rem 1.1rem;
+            font-size: 1.4rem;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            span{
+                padding: .6rem 0;
+                letter-spacing: .2rem;
+
+                i{
+                    color: #DE6843;
+                }
+            }
+        }
+
+    }
+
+
+
+}
+
+
+
+
+.sell_person{
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    justify-content: space-evenly;
+    background-color: #fff;
+    padding: .5rem 0;
+    
+
+    .per_img{
+        width: 4rem;
+        height: 4rem;
+        background:url(../image/rentalList/man.png)center no-repeat;
+        background-size: contain;
+    }
+
+    .per_infor{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contact_infor{
+        display: flex;
+        align-items: center;
+
+        
+        .contact_way{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+
+            .way_img{
+                margin-top: .8rem;
+                width: 3rem;
+                height: 3rem;
+            }
+            
+        }
+        & .contact_way:first-child{
+            .way_img{
+                background:url(../image/rentalList/icon1.png)center no-repeat;
+                background-size: contain;
+            }
+
+            span{
+                font-size: 1.4rem;
+                color: #5DCB96;
+            }
+        }
+
+
+
+        & .contact_way:last-child{
+            margin-left: 2.7rem;
+            .way_img{
+                background:url(../image/rentalList/icon2.png)center no-repeat;
+                background-size: contain;
+            }
+
+            span{
+                font-size: 1.4rem;
+                color: #5BAEDE;
+            }
+        }
+
+
+
+
+    }
+
+}
+
+
+

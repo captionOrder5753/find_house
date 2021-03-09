@@ -1,0 +1,290 @@
+html {
+  font-size: 10px;
+  font-family: "microsoft yahei";
+}
+.header {
+  box-sizing: border-box;
+  padding: 0.6rem 3.4rem;
+  background-color: #FF8A00;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header .logo_img {
+  width: 10rem;
+  height: 3rem;
+  background: url(../image/index/logo.jpg) center no-repeat;
+  background-size: contain;
+}
+.header .right {
+  display: flex;
+  align-items: center;
+}
+.header .right .my {
+  width: 2.4rem;
+  height: 3rem;
+  background: url(../image/index/my.jpg) center no-repeat;
+  background-size: contain;
+}
+.header .right .download {
+  margin-left: 2.2rem;
+  width: 2.3rem;
+  height: 3rem;
+  background: url(../image/index/xiazai.jpg) center no-repeat;
+  background-size: contain;
+}
+.footer {
+  width: 100%;
+  background-color: #2F3130;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  padding: 0 1.5rem;
+}
+.footer .footer_title {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 1.4rem 0;
+  color: #939494;
+  font-size: 1.6rem;
+  font-weight: bold;
+  border-bottom: 1px solid #3E403F;
+}
+.footer .port_direction {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.footer .port_direction .pors_item {
+  display: flex;
+  align-items: center;
+  padding: 1.5rem 0;
+}
+.footer .port_direction .pors_item .apple {
+  background: url(../image/index/apple.png) center no-repeat;
+  background-size: contain;
+}
+.footer .port_direction .pors_item .android {
+  background: url(../image/index/android.png) center no-repeat;
+  background-size: contain;
+}
+.footer .port_direction .pors_item .ports_img {
+  width: 2.3rem;
+  height: 2.3rem;
+  margin-right: 1.5rem;
+}
+.footer .port_direction .pors_item .ports_dec {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-size: 1.4rem;
+  color: #939494;
+}
+.footer .company_infor {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-size: 1.4rem;
+  color: #939494;
+  margin-bottom: 1.7rem;
+}
+.routes {
+  display: flex;
+  align-content: center;
+  font-size: 1.4rem;
+  color: #000;
+  margin-left: 2rem;
+  padding: 1.2rem 0;
+}
+.home_banner {
+  width: 100%;
+  height: 18.5rem;
+  background: url(../image/rentalList/banner.png) center no-repeat greenyellow;
+}
+.home_description {
+  width: 100%;
+  padding-left: 1.7rem;
+  box-sizing: border-box;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+  display: flex;
+  justify-content: space-between;
+}
+.home_description .home_txt {
+  width: 24.3rem;
+  padding: 1.2rem 0;
+  font-size: 1.8rem;
+  font-weight: bold;
+  border-right: 1px solid #ccc;
+}
+.home_description .attention {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 1.5rem;
+}
+.home_description .attention span {
+  font-size: 1.2rem;
+  color: #666666;
+}
+.home_description .attention .xin {
+  width: 2rem;
+  height: 2rem;
+  background: url(../image/rentalList/xin.png) center no-repeat;
+  background-size: contain;
+}
+.home_details {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3rem 0;
+  border-bottom: 1px solid #ccc;
+}
+.home_details .detail_item:last-child {
+  border: 0;
+}
+.home_details .detail_item {
+  width: 33.3%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  box-sizing: border-box;
+  border-right: 1px solid #ccc;
+}
+.home_details .detail_item span:last-child {
+  color: #FF8A00;
+}
+.home_style {
+  width: 100%;
+  padding: 0 2rem;
+  background-color: #fff;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 1rem;
+}
+.home_style .style_item {
+  display: flex;
+  width: 1005;
+  box-sizing: border-box;
+  padding: 2rem 0;
+  color: #333;
+  font-weight: bold;
+  border-bottom: 1px solid #ccc;
+  font-size: 1.3rem;
+}
+.home_style .style_item span:first-child {
+  width: 8.9rem;
+  margin-right: 4.8rem;
+}
+.home_style .style_item:last-child {
+  border: 0;
+}
+.abouts_home {
+  padding: 0 0.9rem;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+.abouts_home .about_item {
+  border: 1px solid #ccc;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1.2rem;
+}
+.abouts_home .about_item .item_title {
+  padding: 1.3rem 0;
+  border-bottom: 1px solid #ccc;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.abouts_home .about_item .item_title span {
+  margin-left: 1.6rem;
+  font-size: 2rem;
+  color: #FF8A00;
+  font-weight: bold;
+}
+.abouts_home .about_item .item_title .turnRight {
+  margin-right: 1.3rem;
+  width: 1.4rem;
+  height: 2.9rem;
+  background: url(../image/rentalList/right.png) center no-repeat;
+  background-size: contain;
+}
+.abouts_home .about_item .itm_content {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 1.4rem 1.1rem;
+  font-size: 1.4rem;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+}
+.abouts_home .about_item .itm_content span {
+  padding: 0.6rem 0;
+  letter-spacing: 0.2rem;
+}
+.abouts_home .about_item .itm_content span i {
+  color: #DE6843;
+}
+.sell_person {
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  justify-content: space-evenly;
+  background-color: #fff;
+  padding: 0.5rem 0;
+}
+.sell_person .per_img {
+  width: 4rem;
+  height: 4rem;
+  background: url(../image/rentalList/man.png) center no-repeat;
+  background-size: contain;
+}
+.sell_person .per_infor {
+  display: flex;
+  flex-direction: column;
+}
+.sell_person .contact_infor {
+  display: flex;
+  align-items: center;
+}
+.sell_person .contact_infor .contact_way {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.sell_person .contact_infor .contact_way .way_img {
+  margin-top: 0.8rem;
+  width: 3rem;
+  height: 3rem;
+}
+.sell_person .contact_infor .contact_way:first-child .way_img {
+  background: url(../image/rentalList/icon1.png) center no-repeat;
+  background-size: contain;
+}
+.sell_person .contact_infor .contact_way:first-child span {
+  font-size: 1.4rem;
+  color: #5DCB96;
+}
+.sell_person .contact_infor .contact_way:last-child {
+  margin-left: 2.7rem;
+}
+.sell_person .contact_infor .contact_way:last-child .way_img {
+  background: url(../image/rentalList/icon2.png) center no-repeat;
+  background-size: contain;
+}
+.sell_person .contact_infor .contact_way:last-child span {
+  font-size: 1.4rem;
+  color: #5BAEDE;
+}

@@ -1,0 +1,380 @@
+html {
+  font-size: 10px;
+  font-family: "microsoft yahei";
+}
+.wrap {
+  position: relative;
+}
+.header {
+  box-sizing: border-box;
+  padding: 0.6rem 3.4rem;
+  background-color: #FF8A00;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header .logo_img {
+  width: 10rem;
+  height: 3rem;
+  background: url(../image/index/logo.jpg) center no-repeat;
+  background-size: contain;
+}
+.header .right {
+  display: flex;
+  align-items: center;
+}
+.header .right .my {
+  width: 2.4rem;
+  height: 3rem;
+  background: url(../image/index/my.jpg) center no-repeat;
+  background-size: contain;
+}
+.header .right .download {
+  margin-left: 2.2rem;
+  width: 2.3rem;
+  height: 3rem;
+  background: url(../image/index/xiazai.jpg) center no-repeat;
+  background-size: contain;
+}
+.banner {
+  width: 100%;
+  height: 22.4rem;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  box-sizing: border-box;
+  background: url(../image/index/banner.png) center no-repeat;
+  background-size: contain;
+}
+.banner .search_home {
+  width: 29rem;
+  height: 3.5rem;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  border: 2px solid black;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  background-color: white;
+}
+.banner .search_home .search_btn {
+  width: 2.2rem;
+  height: 2.2rem;
+  background: url(../image/index/seach.jpg) center no-repeat;
+  background-size: contain;
+}
+.banner .search_home input {
+  font-size: 1.6rem;
+  flex-grow: 1;
+}
+.home_types {
+  display: flex;
+  padding: 1.6rem 0;
+  box-sizing: border-box;
+  background-color: #F68500;
+  justify-content: space-evenly;
+}
+.home_types .home_item {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.home_types .home_item .ershou {
+  background: url(../image/index/index_03.png) center no-repeat;
+  background-size: contain;
+}
+.home_types .home_item .xinfang {
+  background: url(../image/index/index_05.png) center no-repeat;
+  background-size: contain;
+}
+.home_types .home_item .zufang {
+  background: url(../image/index/index_07.png) center no-repeat;
+  background-size: contain;
+}
+.home_types .home_item .maifang {
+  background: url(../image/index/index_09.png) center no-repeat;
+  background-size: contain;
+}
+.home_types .home_item .put_img {
+  width: 5.7rem;
+  height: 5.5rem;
+  margin-bottom: 1rem;
+}
+.home_types .home_item span {
+  color: #fff;
+  font-size: 1.4rem;
+}
+.banner2 {
+  width: 100%;
+  height: 25.1rem;
+  background: url(../image/index/banner2.png) center no-repeat;
+  background-size: contain;
+}
+.cpntent_title {
+  width: 100%;
+  padding: 1.4rem 0rem 1rem 2.1rem;
+  box-sizing: border-box;
+  display: flex;
+  background-color: #F68500;
+  flex-direction: column;
+}
+.cpntent_title .chin {
+  font-size: 2.3rem;
+  color: #fff;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+.cpntent_title .eng {
+  font-size: 1.6rem;
+  color: #fff;
+  font-weight: bold;
+}
+.some_homes {
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  flex-direction: column;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 0.6rem;
+}
+.some_homes .home_item {
+  border-bottom: 1px solid  red;
+  display: flex;
+  align-items: center;
+  padding: 2.5rem 0;
+  box-sizing: border-box;
+}
+.some_homes .home_item:last-child {
+  border-bottom: 0;
+}
+.some_homes .home_item .left_img {
+  width: 8.1rem;
+  height: 8.1rem;
+  background: url(../image/index/img1.jpg) center no-repeat;
+  background-size: contain;
+  margin-right: 1.3rem;
+}
+.some_homes .home_item .home_desc {
+  width: 20rem;
+  display: flex;
+  flex-direction: column;
+}
+.some_homes .home_item .home_desc .desc_title span {
+  display: inline-block;
+  width: 20rem;
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #000;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.some_homes .home_item .home_desc .desc_area {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.some_homes .home_item .home_desc .desc_area .st {
+  font-size: 1.5rem;
+  color: #000;
+}
+.some_homes .home_item .home_desc .desc_area .price {
+  color: #FF8A00;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.some_homes .home_item .home_desc .desc_address {
+  display: flex;
+  justify-content: space-between;
+}
+.some_homes .home_item .home_desc .desc_address .sr {
+  font-size: 1.5rem;
+  color: #666666;
+}
+.some_homes .home_item .home_desc .desc_address .sc {
+  color: #666666;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.some_homes .home_item .home_desc .desc_tips {
+  display: flex;
+}
+.some_homes .home_item .home_desc .desc_tips .tips_item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.3rem 0.3rem;
+  box-sizing: border-box;
+  color: #849AAE;
+  background-color: #F4F7F9;
+  margin-right: 0.5rem;
+}
+.attention_links {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.attention_links .links_title {
+  width: 100%;
+  display: flex;
+  border-bottom: 1px solid #FF8A00;
+  padding: 1.8rem 4.5rem;
+  box-sizing: border-box;
+  justify-content: space-between;
+}
+.attention_links .links_title .orange {
+  font-size: 2.1rem;
+  /* 被选中就会变成的颜色 */
+  color: #FF8A00;
+  position: relative;
+}
+.attention_links .links_title .orange:after {
+  display: block;
+  content: "";
+  position: absolute;
+  width: 16.1rem;
+  height: 0.2rem;
+  bottom: -1.8rem;
+  left: -4.5rem;
+  background-color: #FF8A00;
+}
+.attention_links .links_title span:last-child {
+  font-size: 2.1rem;
+  /* 被选中就会变成的颜色 */
+  color: #666666;
+}
+.attention_links .home_links {
+  width: 100%;
+  display: flex;
+  box-sizing: border-box;
+  padding: 2rem;
+  justify-content: space-between;
+}
+.attention_links .home_links .links_left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+}
+.attention_links .home_links .links_left a {
+  color: #666666;
+  font-size: 1.4rem;
+}
+.attention_links .home_links .links_right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+}
+.attention_links .home_links .links_right a {
+  color: #666666;
+  font-size: 1.4rem;
+}
+.footer {
+  width: 100%;
+  background-color: #2F3130;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  padding: 0 1.5rem;
+}
+.footer .footer_title {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 1.4rem 0;
+  color: #939494;
+  font-size: 1.6rem;
+  font-weight: bold;
+  border-bottom: 1px solid #3E403F;
+}
+.footer .port_direction {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer .port_direction .pors_item {
+  display: flex;
+  align-items: center;
+  padding: 1.5rem 0;
+}
+.footer .port_direction .pors_item .apple {
+  background: url(../image/index/apple.png) center no-repeat;
+  background-size: contain;
+}
+.footer .port_direction .pors_item .android {
+  background: url(../image/index/android.png) center no-repeat;
+  background-size: contain;
+}
+.footer .port_direction .pors_item .ports_img {
+  width: 2.3rem;
+  height: 2.3rem;
+  margin-right: 1.5rem;
+}
+.footer .port_direction .pors_item .ports_dec {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-size: 1.4rem;
+  color: #939494;
+}
+.footer .company_infor {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-size: 1.4rem;
+  color: #939494;
+  margin-bottom: 1.7rem;
+}
+.words_above {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #000;
+  opacity: 0.8;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.words_above .close {
+  width: 1.6rem;
+  height: 1.6rem;
+  background: url(../image/index/close.png) center no-repeat;
+  background-size: contain;
+  align-self: flex-start;
+}
+.words_above .icon {
+  width: 3rem;
+  height: 3rem;
+  background: url(../image/index/download.png) center no-repeat;
+  background-size: contain;
+}
+.words_above .advantage {
+  display: flex;
+  flex-direction: column;
+}
+.words_above .advantage span {
+  color: #fff;
+}
+.words_above .advantage span:nth-of-type(1) {
+  font-size: 2rem;
+  color: #fff;
+}
+.words_above .advantage span:nth-of-type(2) {
+  font-size: 1.4rem;
+  color: #fff;
+}
+.words_above .orange_dow {
+  font-size: 1.8rem;
+  display: flex;
+  color: #fff;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem;
+  background-color: #FF8A00;
+}
