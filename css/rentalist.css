@@ -50,7 +50,7 @@ html {
   color: #939494;
   font-size: 1.6rem;
   font-weight: bold;
-  border-bottom: 1px solid #3E403F;
+  border-bottom: 0.1rem solid #3E403F;
 }
 .footer .port_direction {
   width: 100%;
@@ -110,7 +110,7 @@ html {
   padding-left: 1.7rem;
   box-sizing: border-box;
   align-items: center;
-  border-bottom: 1px solid #ccc;
+  border-bottom: 0.1rem solid #ccc;
   display: flex;
   justify-content: space-between;
 }
@@ -119,7 +119,7 @@ html {
   padding: 1.2rem 0;
   font-size: 1.8rem;
   font-weight: bold;
-  border-right: 1px solid #ccc;
+  border-right: 0.1rem solid #ccc;
 }
 .home_description .attention {
   display: flex;
@@ -144,7 +144,7 @@ html {
   justify-content: space-between;
   align-items: center;
   padding: 3rem 0;
-  border-bottom: 1px solid #ccc;
+  border-bottom: 0.1rem solid #ccc;
 }
 .home_details .detail_item:last-child {
   border: 0;
@@ -156,7 +156,7 @@ html {
   justify-content: center;
   flex-direction: column;
   box-sizing: border-box;
-  border-right: 1px solid #ccc;
+  border-right: 0.1rem solid #ccc;
 }
 .home_details .detail_item span:last-child {
   color: #FF8A00;
@@ -168,7 +168,7 @@ html {
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
-  border-bottom: 1px solid #ccc;
+  border-bottom: 0.1rem solid #ccc;
   margin-bottom: 1rem;
 }
 .home_style .style_item {
@@ -178,7 +178,7 @@ html {
   padding: 2rem 0;
   color: #333;
   font-weight: bold;
-  border-bottom: 1px solid #ccc;
+  border-bottom: 0.1rem solid #ccc;
   font-size: 1.3rem;
 }
 .home_style .style_item span:first-child {
@@ -195,7 +195,7 @@ html {
   flex-direction: column;
 }
 .abouts_home .about_item {
-  border: 1px solid #ccc;
+  border: 0.1rem solid #ccc;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -203,7 +203,7 @@ html {
 }
 .abouts_home .about_item .item_title {
   padding: 1.3rem 0;
-  border-bottom: 1px solid #ccc;
+  border-bottom: 0.1rem solid #ccc;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -236,6 +236,14 @@ html {
 }
 .abouts_home .about_item .itm_content span i {
   color: #DE6843;
+}
+.abouts_home .about_item .itm_content .map {
+  width: 100%;
+  height: 11.5rem;
+}
+.abouts_home .about_item .itm_content .map #container {
+  height: 100%;
+  width: 100%;
 }
 .sell_person {
   display: flex;

@@ -1,0 +1,112 @@
+html {
+  font-size: 10px;
+  font-family: "微软雅黑";
+}
+.header {
+  box-sizing: border-box;
+  padding: 0.6rem 3.4rem;
+  background-color: #FF8A00;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header .logo_img {
+  width: 10rem;
+  height: 3rem;
+  background: url(../image/index/logo.jpg) center no-repeat;
+  background-size: contain;
+}
+.header .right {
+  display: flex;
+  align-items: center;
+}
+.header .right .my {
+  width: 2.4rem;
+  height: 3rem;
+  background: url(../image/index/my.jpg) center no-repeat;
+  background-size: contain;
+}
+.header .right .download {
+  margin-left: 2.2rem;
+  width: 2.3rem;
+  height: 3rem;
+  background: url(../image/index/xiazai.jpg) center no-repeat;
+  background-size: contain;
+}
+.routes {
+  display: flex;
+  align-content: center;
+  font-size: 1.5rem;
+  color: #000;
+  padding: 1.2rem 2rem;
+  background-color: #fff;
+}
+.user_bg {
+  width: 100%;
+  height: 14.1rem;
+  background: url(../image/my/bg2.png) center no-repeat;
+  background-size: contain;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.user_bg .user_avatar {
+  width: 5.4rem;
+  height: 5.4rem;
+  background: url(../image/my/urse2.png) center no-repeat;
+  background-size: contain;
+  margin-bottom: 3.6rem;
+}
+.user_bg .hello_user {
+  color: #fff;
+  font-size: 1.4rem;
+}
+.insert_messsage {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  box-sizing: border-box;
+  padding: 0 2.4rem 0 1.4rem;
+  border-bottom: 0.1rem solid #ccc;
+}
+.insert_messsage .message_item {
+  align-items: center;
+  box-sizing: border-box;
+  background-color: #fff;
+  border-bottom: 0.1rem solid #ccc;
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.4rem;
+  color: #666666;
+  padding: 1.5rem 0;
+}
+.insert_messsage .right {
+  width: 0.9rem;
+  height: 1.9rem;
+  background: url(../image/my/right.png) center no-repeat;
+  background-size: contain;
+}
+.insert_messsage .message_item:last-child {
+  border: 0;
+}
+.submit {
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.submit .submit_btn {
+  width: 30rem;
+  height: 4.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.3rem;
+  color: #FF8A00;
+  border: 0.1rem solid #ccc;
+  background-color: #fff;
+  margin-top: 1.4rem;
+}

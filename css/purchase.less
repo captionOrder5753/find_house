@@ -1,0 +1,282 @@
+html{
+    font-size: 10px;
+    font-family: "microsoft yahei";
+}
+
+.header{
+    box-sizing: border-box;
+    padding: .6rem 3.4rem ;
+    background-color:#FF8A00;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .logo_img{
+        // outline: .1rem solid red;
+        width: 10rem;
+        height: 3rem;
+        background:url(../image/index/logo.jpg)center no-repeat;
+        background-size: contain;
+    }
+    .right{
+        display: flex;
+        align-items: center;
+        .my{
+
+            // outline: .1rem solid red;
+            width: 2.4rem;
+            height: 3rem;
+            background:url(../image/index/my.jpg)center no-repeat;
+            background-size: contain;
+    
+        }
+    
+        .download{
+            margin-left:2.2rem ;
+            // outline: .1rem solid red;
+            width: 2.3rem;
+            height: 3rem;
+            background:url(../image/index/xiazai.jpg)center no-repeat;
+            background-size: contain;
+    
+        }
+    }    
+
+}
+
+
+
+.footer{
+    width: 100%;
+    background-color: #2F3130;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 0 1.5rem;
+    .footer_title{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        box-sizing: border-box;
+        padding: 1.4rem 0;
+        color: #939494;
+        font-size: 1.6rem;
+        font-weight: bold;
+        border-bottom: .1rem solid #3E403F;
+    }
+
+   .port_direction{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  
+    .pors_item{
+
+        display: flex;
+        align-items: center;
+        padding: 1.5rem 0;
+
+        .apple{
+            background:url(../image/index/apple.png)center no-repeat;
+            background-size: contain;
+        }
+        .android{
+
+            background:url(../image/index/android.png)center no-repeat;
+            background-size: contain;
+        }
+        .ports_img{
+            width: 2.3rem;
+            height: 2.3rem;
+            margin-right: 1.5rem;
+           
+        }
+        .ports_dec{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            font-size: 1.4rem;
+            color: #939494;
+        }
+    }
+
+
+   }
+
+   .company_infor{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        font-size: 1.4rem;
+        color: #939494;
+        margin-bottom: 1.7rem;
+   }
+}
+
+.routes{
+    display: flex;
+    align-content: center;
+    font-size: 1.4rem;
+    color: #000;
+    margin-left: 2rem;
+    padding: 1.2rem 0;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .search_home{
+        width: 29rem;
+        height: 3.5rem;
+        display: flex;
+        align-items: center;
+        box-sizing: border-box;
+        border: .1rem solid #ccc;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        border-radius: 4px;
+        background-color: white;
+        .search_btn{
+            margin: 0 1.6rem;
+            width: 2.2rem;
+            height: 2.2rem;
+            background:url(../image/SecondHandList/search_03.png)center no-repeat;
+            background-size: contain;
+           
+        }
+    
+        input{
+            font-size: 1.6rem;
+            flex-grow: 1;
+            border-right: .1rem solid #000;
+            
+        }
+    }
+
+}
+
+
+.some_homes{
+    background-color: #fff;
+    // padding: 0 1rem;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    flex-direction: column;
+    border-bottom: .1rem solid #ccc;
+    // margin-bottom: .6rem;
+    .home_item{
+        
+        &:last-child{
+            border-bottom:0; 
+        }
+        // background-color: brown;
+        border-bottom:.1rem solid#FF8A00;
+        display: flex;
+        align-items: center;
+        padding: 2.5rem 0;   
+        box-sizing: border-box;
+        .left_img{
+            width: 8.1rem;
+            height: 8.1rem;
+          
+            background:url(../image/SecondHandList/img3.png)center no-repeat;
+            background-size: contain;
+            margin-right: 1.3rem;
+        }
+        .home_desc{
+            width: 20rem;
+            display: flex;
+          
+            flex-direction: column;
+          
+         
+
+            .desc_title{
+                span{
+                    display: inline-block;
+                    width: 20rem;
+                    font-size:1.5rem;
+                    font-weight: bold;
+                    color: #000;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    white-space: nowrap;
+                }
+               
+            }
+            .desc_area{
+                width: 100%;
+                display: flex;
+                // justify-content: space-between;
+                
+                .st{
+                    font-size: 1.4rem;
+                    color: #000;
+
+                }
+              
+            }
+
+            .desc_address{
+
+                display: flex;
+                // justify-content: space-between;
+                
+                .sr{
+                    font-size: 1.4rem;
+                    color: #666666;
+                   
+
+                }
+                .sc{
+                    color: #FF8A00;
+                    font-size: 1.5rem;
+                    font-weight: bold;
+                }
+            }
+
+            .desc_date{
+                display: flex;
+
+                span{
+                    font-size: 1.4rem;
+                    color:  #666666;
+                }
+            }
+        }
+    }
+
+
+
+    & .home_item:first-child{
+        .left_img{
+            background:url(../image/SecondHandList/img1.png)center no-repeat;
+            background-size: contain;
+
+        }
+
+      
+
+    }
+
+
+
+    & .home_item:last-child{
+        .left_img{
+            background:url(../image/SecondHandList/img2.png)center no-repeat;
+            background-size: contain;
+
+        }
+
+      
+
+    }
+}
+
+
+
+

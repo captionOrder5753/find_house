@@ -1,0 +1,91 @@
+html {
+  font-size: 10px;
+  font-family: "微软雅黑";
+}
+.header {
+  box-sizing: border-box;
+  padding: 0.6rem 3.4rem;
+  background-color: #FF8A00;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header .logo_img {
+  width: 10rem;
+  height: 3rem;
+  background: url(../image/index/logo.jpg) center no-repeat;
+  background-size: contain;
+}
+.header .right {
+  display: flex;
+  align-items: center;
+}
+.header .right .my {
+  width: 2.4rem;
+  height: 3rem;
+  background: url(../image/index/my.jpg) center no-repeat;
+  background-size: contain;
+}
+.header .right .download {
+  margin-left: 2.2rem;
+  width: 2.3rem;
+  height: 3rem;
+  background: url(../image/index/xiazai.jpg) center no-repeat;
+  background-size: contain;
+}
+.routes {
+  display: flex;
+  align-content: center;
+  font-size: 1.5rem;
+  color: #000;
+  padding: 1.2rem 2rem;
+  background-color: #fff;
+  border-bottom: 0.1rem solid #ccc;
+}
+.insert_messsage {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.insert_messsage .message_item {
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 0 1.5rem;
+  background-color: #fff;
+  border-bottom: 0.1rem solid #ccc;
+}
+.insert_messsage .message_item input[type="text"] {
+  flex-grow: 1;
+  padding: 1;
+  font-size: 1.4rem;
+  padding: 1.5rem 0;
+}
+.insert_messsage .message_item .vfcorde_btn {
+  margin-top: 0.4rem;
+  margin-bottom: 0.4rem;
+  padding: 0.8rem 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #666666;
+  border: 0.1rem solid #DCDCDC;
+}
+.submit {
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.submit .submit_btn {
+  width: 30rem;
+  height: 4.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  color: #fff;
+  background-color: #FF8A00;
+  margin-top: 1.4rem;
+}

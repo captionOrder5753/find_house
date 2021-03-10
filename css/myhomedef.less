@@ -1,0 +1,231 @@
+html{
+    font-size: 10px;
+    font-family: "微软雅黑";
+}
+
+
+
+
+.routes{
+    display: flex;
+    align-content: center;
+    font-size: 1.5rem;
+    color: #000;
+    // margin-left: 2rem;
+    padding: 1.2rem 2rem;
+    background-color: #fff;
+    // border-bottom: .1rem solid #ccc;
+}
+
+.user_bg{
+    width: 100%;
+    height: 18.6rem;
+    background:url(../image/my/bg1.png)center no-repeat;
+    background-size: contain;
+    display: flex;
+    align-items: center;
+    // justify-content: center;
+    flex-direction: column;
+
+    .user_avatar{
+        width: 5.4rem;
+        height: 5.4rem;
+        background:url(../image/my/urse2.png)center no-repeat;
+        background-size: contain;
+        margin-bottom: 1.5rem;
+    }
+
+    .hello_user{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        span{
+            color: #fff;
+            font-size: 1.4rem;
+            display: inline-block;
+            border: .1rem solid #fff;
+            width: 6.6rem;
+            height: 3.3rem;
+            box-sizing: border-box;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+       
+    }
+
+
+
+    .header{
+        // background-color: cornflowerblue;
+        box-sizing: border-box;
+        padding: 1rem 1rem 0 1rem   ;
+        width: 100%;
+        // background-color:#FF8A00;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+       
+       
+        .right{
+            display: flex;
+            align-items: center;
+            .myinfor{
+                // background-color: chartreuse;
+                display: flex;
+                
+                align-items: center;
+                flex-direction: column;
+                .my{
+                    width: 1.4rem;
+                    height: 1.5rem;
+                    background:url(../image/my/urse.png)center no-repeat;
+                    background-size: contain;
+            
+                }
+                span{
+                    font-size: 1.3rem;
+                    color: #fff;
+                }
+    
+            }
+            
+            .down_infor{
+                margin-left: 20px;
+                // background-color: brown;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                // width: 2.5rem;
+                .download{
+                    width: 1.4rem;
+                    height: 1.5rem;
+                    background:url(../image/my/down.png)center no-repeat;
+                    background-size: contain;
+            
+                }
+                span{
+                    font-size: 1.3rem;
+                    color: #fff;
+                }
+            }
+        
+          
+        }    
+    
+    }
+}
+
+
+
+
+
+
+
+
+.insert_messsage{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    box-sizing: border-box;
+    padding: 0 2.4rem 0 1.4rem;
+    // border-bottom: .1rem solid #ccc;
+
+    .message_item{
+
+        display: flex;
+        align-items: center;
+        box-sizing: border-box;
+        background-color: #fff;
+        border-bottom: .1rem solid #ccc;
+        display: flex;
+        justify-content: space-between;
+        font-size: 1.4rem;
+        color: #666666;
+        padding: 1.5rem 0;
+
+        .left{
+            display: flex;
+            .item_img{
+                width: 1.8rem;
+                height: 1.8rem;
+               
+
+            }
+
+
+
+
+        }
+
+        .right{
+            width: .9rem;
+            height: 1.9rem;
+            background:url(../image/my/right.png)center no-repeat;
+            background-size: contain;
+    
+    
+        }
+        
+    }
+
+    & .message_item:nth-child(1){
+        .item_img{
+            background:url(../image/my/icon1.png)center no-repeat;
+            background-size: contain;
+        }
+
+    }
+    & .message_item:nth-child(2){
+        .item_img{
+            background:url(../image/my/icon2.png)center no-repeat;
+            background-size: contain;
+        }
+
+    }
+    & .message_item:nth-child(3){
+        .item_img{
+            background:url(../image/my/icon3.png)center no-repeat;
+            background-size: contain;
+        }
+
+    }
+    & .message_item:nth-child(4){
+        .item_img{
+            background:url(../image/my/icon4.png)center no-repeat;
+            background-size: contain;
+        }
+
+    }
+ 
+    // & .message_item:last-child{
+    //     border: 0;
+
+    // }
+   
+}
+
+
+.submit{
+    width:100%;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    // padding: ;
+
+    .submit_btn{
+        width: 30rem;
+        height: 4.8rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.3rem;
+        color: #FF8A00;
+        border: .1rem solid #ccc;
+        background-color:#fff ;
+        margin-top: 1.4rem;
+    }
+}

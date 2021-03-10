@@ -1,0 +1,403 @@
+<!--
+ * @Descripttion: FYM
+ * @version: 1.0
+ * @@Company: DCIT-SH
+ * @Date: 2021-03-09 18:48:01
+ * @LastEditors: Please set LastEditors
+ * @LastEditTime: 2021-03-10 09:02:51
+-->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>房屋详情</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/details.css">
+    <link rel="stylesheet" href="../swiper/swiper-bundle.min.css">
+    <script src="../swiper/swiper-bundle.min.js"></script>
+    <script type="text/javascript" src="https://api.map.baidu.com/api?v=1.0&type=webgl&ak=MTCN9TdVtMi7I0GVppHSu0hyegpPB6nX">
+    </script>
+</head>
+
+<body>
+    <!-- 头部开始 -->
+    <div class="header">
+        <div class="logo_img">
+
+        </div>
+
+        <div class="right">
+            <div class="my">
+
+            </div>
+
+            <div class="download">
+
+            </div>
+
+        </div>
+
+    </div>
+    <!-- 头部结束 -->
+
+
+    <!-- 轮播图开始 -->
+    <div class="swiper-container ">
+        <div class="swiper-wrapper ">
+            <div class="swiper-slide ">
+                <img src="../image/SecondHandList/img.png " alt=" ">
+            </div>
+            <div class="swiper-slide ">
+                <img src="../image/rentalList/banner.png " alt=" ">
+            </div>
+            <div class="swiper-slide ">
+                <img src="../image/SecondHandList/img.png " alt=" ">
+            </div>
+        </div>
+        <!-- 如果需要分页器 。。。 -->
+        <div class="swiper-pagination "></div>
+
+        <div class="blur">
+
+        </div>
+    </div>
+
+    <!-- 轮播图结束 -->
+
+
+    <!-- 房屋大概细节开始(公示) -->
+    <div class="home_publicity">
+        <div class="public_title"><span>天鹅湾小区精装两居,满五唯一,业主换房急售</span></div>
+
+        <div class="pulic_price">
+            <span><b>576</b> 万元(单价:46327元/平)</span>
+            <div class="calculator"></div>
+        </div>
+
+        <div class="pulic_date"><span>挂牌时间2015年6月20日</span></div>
+        <div class="pub_tips">
+            <div class="tip_item">学区房</div>
+            <div class="tip_item">独家</div>
+            <div class="tip_item">满五唯一</div>
+        </div>
+    </div>
+
+    <!-- 房屋大概细节开始(公示) -->
+
+    <!-- 房屋具体细节开始 -->
+    <div class="home_specific">
+        <div class="specific_item"><span>户型: 3室2厅</span><span>面积: 100平</span></div>
+        <div class="specific_item"><span>楼层: 中楼层</span><span>朝向: 西南</span></div>
+        <div class="specific_item"><span>装修: 精装</span><span>楼型: 塔楼</span></div>
+        <div class="specific_item"><span>年代: 2004年</span><span>区域: 西二旗</span></div>
+        <div class="specific_item"><span>首付: 123万</span><span>月供: 15683元</span></div>
+        <div class="specific_items"><span>地铁: 离西二旗地铁站800米</span></div>
+        <div class="specific_items"><span>小区: 珠江帝晨</span></div>
+        <div class="specific_items"><span>学校: 北京市第二实验小学</span></div>
+
+        <div class="specific_items need_more"><span>更多房源信息</span></div>
+    </div>
+    <!-- 房屋具体细节结束 -->
+
+
+    <!-- 房子优势开始 -->
+
+    <div class="home_advantage">
+        <div class="advantage_item">
+            <div class="advantage_title">
+                <span class="orange">房源特色</span>
+            </div>
+            <div class="advantage_content">
+                <div class="txt">
+                    小区环境优雅，虽处闹市中 (小区南200米有美廉美超市、西30米有华联商场、星美国际影娀、东北角就是大中电器、小区东100米有汇佳幼儿园、昌平实验一小,昆泰国际大酒...
+                </div>
+                <div class="moreH">
+                    更多特色
+                </div>
+            </div>
+        </div>
+
+        <div class="advantage_item">
+            <div class="advantage_title">
+                <span class="orange">户型分间</span>
+            </div>
+            <div class="advantage_content">
+                <div class="some_homes">
+                    <div class="home_item">
+                        <div class="left_img"></div>
+                        <div class="home_desc">
+                            <div class="desc_title"><span>当前格局</span></div>
+                            <div class="desc_area"><span class="st">分间信息:客厅25平米, 南北通透</span></div>
+
+                            <div class="desc_date">
+                                <span class="tips">南北通透</span>
+                                <span class="tips">全明格局</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="home_item">
+                        <div class="left_img"></div>
+                        <div class="home_desc">
+                            <div class="desc_title"><span>当前格局</span>
+                            </div>
+                            <div class="desc_area"><span class="st">分间信息:客厅25平米, 南北通透</span></div>
+
+                            <div class="desc_date">
+                                <span class="tips">南北通透</span>
+                                <span class="tips">全明格局</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="advantage_item">
+            <div class="advantage_title">
+                <span>对口学校</span>
+            </div>
+            <div class="advantage_content">
+
+                <div class="specific_item"><span>学校名称:</span><span>北京市第二实验小学</span></div>
+                <div class="specific_item"><span>升学方式:</span><span>直升、派位</span></div>
+                <div class="specific_item"><span>对口中学:</span><span>团结湖中学</span></div>
+                <div class="specific_item"><span>划片小区:</span><span>3个划片小区 在售房源150套</span></div>
+                <div class="specific_item"><span>学校特色:</span><span>包食宿、有校车</span></div>
+
+                <div class="moreH">
+                    查看学校详情
+                </div>
+            </div>
+        </div>
+
+        <div class="advantage_item">
+            <div class="advantage_title">
+                <span>位置及周边</span>
+            </div>
+            <div class="advantage_content">
+                <div class="map">
+                    <div id="container"></div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="advantage_item">
+            <div class="advantage_title">
+                <span>推荐房源</span>
+            </div>
+            <div class="advantage_content">
+
+                <div class="some_house">
+
+                    <div class="looter">
+                        <div class="home_item">
+                            <div class="left_img"></div>
+                            <div class="home_desc">
+                                <div class="desc_title"><span>文化部中间一层 一层带阿诗丹顿教案课件大赛大家来看</span></div>
+                                <div class="desc_area"><span class="st">2室1厅96㎡南北</span><span class="price">1105万</span></div>
+                                <div class="desc_address"><span class="sr">红庙北里</span><span class="sc">14268元/平</span></div>
+                                <div class="desc_tips">
+                                    <div class="tips_item">学区房</div>
+                                    <div class="tips_item">独家</div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="reason">
+                            推荐理由:同户型、通风好、柔光好
+                        </div>
+
+
+                    </div>
+
+                    <div class="looter">
+                        <div class="home_item">
+                            <div class="left_img"></div>
+                            <div class="home_desc">
+                                <div class="desc_title"><span>文化部中间一层 一层带阿诗丹顿教案课件大赛大家来看</span></div>
+                                <div class="desc_area"><span class="st">2室1厅96㎡南北</span><span class="price">1105万</span></div>
+                                <div class="desc_address"><span class="sr">红庙北里</span><span class="sc">14268元/平</span></div>
+                                <div class="desc_tips">
+                                    <div class="tips_item">学区房</div>
+                                    <div class="tips_item">独家</div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="reason">
+                            推荐理由:同户型、通风好、柔光好
+                        </div>
+
+
+                    </div>
+
+                    <div class="looter">
+                        <div class="home_item">
+                            <div class="left_img"></div>
+                            <div class="home_desc">
+                                <div class="desc_title"><span>文化部中间一层 一层带阿诗丹顿教案课件大赛大家来看</span></div>
+                                <div class="desc_area"><span class="st">2室1厅96㎡南北</span><span class="price">1105万</span></div>
+                                <div class="desc_address"><span class="sr">红庙北里</span><span class="sc">14268元/平</span></div>
+                                <div class="desc_tips">
+                                    <div class="tips_item">学区房</div>
+                                    <div class="tips_item">独家</div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="reason">
+                            推荐理由:同户型、通风好、柔光好
+                        </div>
+
+
+                    </div>
+
+                    <div class="looter">
+                        <div class="home_item">
+                            <div class="left_img"></div>
+                            <div class="home_desc">
+                                <div class="desc_title"><span>文化部中间一层 一层带阿诗丹顿教案课件大赛大家来看</span></div>
+                                <div class="desc_area"><span class="st">2室1厅96㎡南北</span><span class="price">1105万</span></div>
+                                <div class="desc_address"><span class="sr">红庙北里</span><span class="sc">14268元/平</span></div>
+                                <div class="desc_tips">
+                                    <div class="tips_item">学区房</div>
+                                    <div class="tips_item">独家</div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="reason">
+                            推荐理由:同户型、通风好、柔光好
+                        </div>
+
+
+                    </div>
+
+
+
+
+                </div>
+                <div class="moreH">
+                    查看更多相似房源
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+    <!-- 房子优势结束 -->
+
+
+
+    <!-- 尾部开始 -->
+    <div class="footer">
+        <div class="footer_title">北京找房无忧 &gt; 房源信息</div>
+        <div class="port_direction">
+            <div class="pors_item">
+                <div class="ports_img apple"></div>
+                <div class="ports_dec">
+                    <span>IPhone</span>
+                    <span>客户端</span>
+                </div>
+            </div>
+            <div class="pors_item">
+                <div class="ports_img android"></div>
+                <div class="ports_dec">
+                    <span>Android</span>
+                    <span>客户端</span>
+                </div>
+            </div>
+        </div>
+        <div class="company_infor">
+            <span>北京找房无忧房地产经纪公司</span>
+            <span>网络经营许可证京ICP备20160812号</span>
+        </div>
+    </div>
+
+    <!--尾部结束  -->
+
+
+
+
+    <!-- 联系经纪人以及关注开始 -->
+    <div class="callback">
+        <div class="relation_btn">
+            <div class="ralation_img"></div>
+            <span>联系经纪人</span>
+        </div>
+
+        <div class="attention_btn">
+            <div class="attention_img"></div>
+            <span>关注</span>
+        </div>
+    </div>
+
+
+    <!-- 联系经纪人以及关注结束 -->
+    <script type="text/javascript">
+        var map = new BMapGL.Map("container");
+        // 创建地图实例 
+        var point = new BMapGL.Point(116.523117, 39.920848);
+        // 创建点坐标 
+        map.centerAndZoom(point, 15);
+        // 初始化地图，设置中心点坐标和地图级别
+
+        map.enableScrollWheelZoom(true);
+
+        var marker = new BMapGL.Marker(point, {
+            enableDragging: true
+        });
+        map.addOverlay(marker);
+
+        // 创建信息窗口
+        var opts = {
+            width: 16,
+            height: 8,
+            title: '天鹅湾'
+        };
+        var infoWindow = new BMapGL.InfoWindow('地址：北京市朝阳区朝阳路与甘露园中街交叉口东北侧', opts);
+        // 点标记添加点击事件
+        marker.addEventListener('click', function() {
+            map.openInfoWindow(infoWindow, point); // 开启信息窗口
+        });
+    </script>
+
+
+
+
+
+
+
+
+    <script>
+        // 初始化swiper
+        // new Swiper('选择器',{swiper具体的配置项});
+
+        var mySwiper = new Swiper('.swiper-container', {
+            direction: 'horizontal', // 垂直切换选项
+            loop: false, // 循环模式选项
+            autoplay: {
+                delay: 1500
+            },
+            effect: 'slide',
+            // 如果需要分页器
+            pagination: {
+                el: '.swiper-pagination',
+                type: 'custom',
+                renderCustom: function(swiper, current, total) {
+                    return current + ' / ' + total;
+                }
+            },
+
+        })
+    </script>
+
+</body>
+
+</html>

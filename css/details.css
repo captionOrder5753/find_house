@@ -1,0 +1,540 @@
+html {
+  font-size: 10px;
+  font-family: "微软雅黑";
+}
+.header {
+  box-sizing: border-box;
+  padding: 0.6rem 3.4rem;
+  background-color: #FF8A00;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header .logo_img {
+  width: 10rem;
+  height: 3rem;
+  background: url(../image/index/logo.jpg) center no-repeat;
+  background-size: contain;
+}
+.header .right {
+  display: flex;
+  align-items: center;
+}
+.header .right .my {
+  width: 2.4rem;
+  height: 3rem;
+  background: url(../image/index/my.jpg) center no-repeat;
+  background-size: contain;
+}
+.header .right .download {
+  margin-left: 2.2rem;
+  width: 2.3rem;
+  height: 3rem;
+  background: url(../image/index/xiazai.jpg) center no-repeat;
+  background-size: contain;
+}
+.swiper-container {
+  position: relative;
+  width: 100%;
+  height: 19rem;
+}
+.swiper-container img {
+  width: 100%;
+  height: 19rem;
+}
+.swiper-container .blur {
+  width: 4.2rem;
+  height: 1.8rem;
+  right: 1.8rem;
+  bottom: 1.3rem;
+  position: absolute;
+  border-radius: 0.5rem;
+  opacity: 0.5;
+  background-color: #000;
+  z-index: 10;
+}
+.home_publicity {
+  background-color: #fff;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 2.5rem 2rem 2rem 2rem;
+  border-bottom: 0.1rem solid #ccc;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1.3rem;
+}
+.home_publicity .public_title {
+  width: 100%;
+}
+.home_publicity .public_title span {
+  display: inline-block;
+  width: 24.5rem;
+  font-size: 1.8rem;
+  color: #333;
+  font-weight: bold;
+}
+.home_publicity .pulic_price {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.home_publicity .pulic_price span {
+  font-size: 1.5rem;
+  color: #333;
+}
+.home_publicity .pulic_price span b {
+  color: #E24C3F;
+}
+.home_publicity .pulic_price .calculator {
+  width: 1.9rem;
+  height: 2rem;
+  background: url(../image/SecondHandList/phone.png) center no-repeat;
+  background-size: contain;
+}
+.home_publicity .pulic_date {
+  width: 100%;
+  margin-bottom: 0.5rem;
+}
+.home_publicity .pulic_date span {
+  font-size: 1.3rem;
+  color: #666666;
+}
+.home_publicity .pub_tips {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.home_publicity .pub_tips .tip_item {
+  color: #849AAE;
+  background-color: #DEE9F0;
+  padding: 0.6rem 0.3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 1.3rem;
+}
+.home_specific {
+  padding: 0 2.1rem;
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  font-size: 1.4rem;
+  color: #333;
+  border-top: 0.1rem solid #ccc;
+  border-bottom: 0.1rem solid #ccc;
+  background-color: #fff;
+  margin-bottom: 1.3rem;
+}
+.home_specific .specific_item {
+  width: 100%;
+  padding: 2rem 0;
+  display: flex;
+  align-items: center;
+  border-bottom: 0.1rem solid #ccc;
+}
+.home_specific .specific_item span:first-child {
+  width: 13rem;
+  margin-right: 30px;
+}
+.home_specific .specific_items {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 2rem 0;
+  border-bottom: 0.1rem solid #ccc;
+}
+.home_specific .need_more {
+  color: #999999;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.home_specific .specific_items:last-child {
+  border: 0;
+}
+.home_advantage {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.home_advantage .advantage_item {
+  border-top: 0.1rem solid #ccc;
+  background-color: #fff;
+  width: 100%;
+  display: flex;
+  box-sizing: border-box;
+  padding: 0 2rem;
+  flex-direction: column;
+  border-bottom: 0.1rem solid #ccc;
+  margin-bottom: 1.3rem;
+}
+.home_advantage .advantage_item .advantage_title {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 1.6rem 0;
+  border-bottom: 0.1rem solid #ccc;
+}
+.home_advantage .advantage_item .advantage_title span {
+  font-size: 1.8rem;
+  color: #333;
+  font-weight: bold;
+}
+.home_advantage .advantage_item .advantage_title .orange {
+  color: #FF9326;
+}
+.home_advantage .advantage_item .advantage_content {
+  width: 100%;
+  box-sizing: border-box;
+}
+.home_advantage .advantage_item .advantage_content .txt {
+  font-size: 1.3rem;
+  color: #333;
+  border-bottom: 0.1rem solid #ccc;
+  padding: 2rem 0;
+}
+.home_advantage .advantage_item .advantage_content .moreH {
+  box-sizing: border-box;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 0;
+}
+.home_advantage .advantage_item .advantage_content .some_homes {
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  flex-direction: column;
+  border-bottom: 0.1rem solid #ccc;
+}
+.home_advantage .advantage_item .advantage_content .some_homes .home_item {
+  border-bottom: 0.1rem solid #FF8A00;
+  display: flex;
+  align-items: center;
+  padding: 2.5rem 0;
+  box-sizing: border-box;
+}
+.home_advantage .advantage_item .advantage_content .some_homes .home_item:last-child {
+  border-bottom: 0;
+}
+.home_advantage .advantage_item .advantage_content .some_homes .home_item .left_img {
+  width: 7.1rem;
+  height: 7.1rem;
+  background: url(../image/SecondHandList/img3.png) center no-repeat;
+  background-size: contain;
+  margin-right: 1.3rem;
+}
+.home_advantage .advantage_item .advantage_content .some_homes .home_item .home_desc {
+  width: 20rem;
+  display: flex;
+  flex-direction: column;
+}
+.home_advantage .advantage_item .advantage_content .some_homes .home_item .home_desc .desc_title span {
+  display: inline-block;
+  width: 20rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #000;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.home_advantage .advantage_item .advantage_content .some_homes .home_item .home_desc .desc_area {
+  width: 100%;
+  display: flex;
+}
+.home_advantage .advantage_item .advantage_content .some_homes .home_item .home_desc .desc_area .st {
+  font-size: 1.2rem;
+  color: #000;
+}
+.home_advantage .advantage_item .advantage_content .some_homes .home_item .home_desc .desc_address {
+  display: flex;
+}
+.home_advantage .advantage_item .advantage_content .some_homes .home_item .home_desc .desc_address .sr {
+  font-size: 1.4rem;
+  color: #666666;
+}
+.home_advantage .advantage_item .advantage_content .some_homes .home_item .home_desc .desc_address .sc {
+  color: #FF8A00;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.home_advantage .advantage_item .advantage_content .some_homes .home_item .home_desc .desc_date {
+  display: flex;
+}
+.home_advantage .advantage_item .advantage_content .some_homes .home_item .home_desc .desc_date .tips {
+  display: block;
+  background-color: #F4F7F9;
+  font-size: 1.2rem;
+  color: #849AAE;
+  padding: 0.8rem 0.5rem;
+  border-radius: 2px;
+  margin-right: 0.6rem;
+}
+.home_advantage .advantage_item .advantage_content .some_homes .home_item:first-child .left_img {
+  background: url(../image/SecondHandList/img1.png) center no-repeat;
+  background-size: contain;
+}
+.home_advantage .advantage_item .advantage_content .some_homes .home_item:last-child .left_img {
+  background: url(../image/SecondHandList/img2.png) center no-repeat;
+  background-size: contain;
+}
+.home_advantage .advantage_item .advantage_content .some_homes:last-child {
+  border: 0;
+}
+.home_advantage .advantage_item .advantage_content .specific_item {
+  font-size: 1.3rem;
+  color: #333;
+  width: 100%;
+  padding: 2rem 0;
+  display: flex;
+  align-items: center;
+  border-bottom: 0.1rem solid #ccc;
+}
+.home_advantage .advantage_item .advantage_content .specific_item span:first-child {
+  color: #999999;
+}
+.home_advantage .advantage_item .advantage_content .map {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  width: 100%;
+  height: 11.5rem;
+}
+.home_advantage .advantage_item .advantage_content .map #container {
+  height: 100%;
+  width: 100%;
+}
+.home_advantage .advantage_item .advantage_content .some_house {
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  flex-direction: column;
+  border-bottom: 0.1rem solid #ccc;
+  margin-bottom: 0.6rem;
+}
+.home_advantage .advantage_item .advantage_content .some_house .looter {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.home_advantage .advantage_item .advantage_content .some_house .looter .home_item {
+  display: flex;
+  align-items: center;
+  padding-top: 2.5rem;
+  padding-left: 2rem;
+  box-sizing: border-box;
+}
+.home_advantage .advantage_item .advantage_content .some_house .looter .home_item:last-child {
+  border-bottom: 0;
+}
+.home_advantage .advantage_item .advantage_content .some_house .looter .home_item .left_img {
+  width: 8.1rem;
+  height: 8.1rem;
+  background: url(../image/index/img1.jpg) center no-repeat;
+  background-size: contain;
+  margin-right: 1.3rem;
+}
+.home_advantage .advantage_item .advantage_content .some_house .looter .home_item .home_desc {
+  width: 18.2rem;
+  display: flex;
+  flex-direction: column;
+}
+.home_advantage .advantage_item .advantage_content .some_house .looter .home_item .home_desc .desc_title span {
+  display: inline-block;
+  width: 20rem;
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #000;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.home_advantage .advantage_item .advantage_content .some_house .looter .home_item .home_desc .desc_area {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.home_advantage .advantage_item .advantage_content .some_house .looter .home_item .home_desc .desc_area .st {
+  font-size: 1.5rem;
+  color: #000;
+}
+.home_advantage .advantage_item .advantage_content .some_house .looter .home_item .home_desc .desc_area .price {
+  color: #FF8A00;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.home_advantage .advantage_item .advantage_content .some_house .looter .home_item .home_desc .desc_address {
+  display: flex;
+  justify-content: space-between;
+}
+.home_advantage .advantage_item .advantage_content .some_house .looter .home_item .home_desc .desc_address .sr {
+  font-size: 1.5rem;
+  color: #666666;
+}
+.home_advantage .advantage_item .advantage_content .some_house .looter .home_item .home_desc .desc_address .sc {
+  color: #666666;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.home_advantage .advantage_item .advantage_content .some_house .looter .home_item .home_desc .desc_tips {
+  display: flex;
+}
+.home_advantage .advantage_item .advantage_content .some_house .looter .home_item .home_desc .desc_tips .tips_item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.3rem 0.3rem;
+  box-sizing: border-box;
+  color: #849AAE;
+  background-color: #F4F7F9;
+  margin-right: 0.5rem;
+}
+.home_advantage .advantage_item .advantage_content .some_house .looter .reason {
+  margin-top: 0.6rem;
+  margin-bottom: 1.6rem;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 1.2rem;
+  color: #333;
+  padding: 1.2rem 0 1.2rem 1rem;
+  background-color: #EFEFF4;
+  position: relative;
+}
+.home_advantage .advantage_item .advantage_content .some_house .looter .reason::before {
+  position: absolute;
+  display: block;
+  content: "";
+  width: 0;
+  height: 0;
+  border: 1rem solid #EFEFF4;
+  border-left-color: transparent;
+  border-right-color: transparent;
+  border-top-color: transparent;
+  left: 0;
+  top: -2rem;
+}
+.home_advantage .advantage_item .advantage_content .some_house:last-child {
+  border: 0;
+}
+.home_advantage .advantage_item:last-child {
+  background-color: transparent;
+  padding: 0 0 ;
+  margin-bottom: 0;
+}
+.home_advantage .advantage_item:last-child .advantage_title {
+  background-color: #fff;
+  box-sizing: border-box;
+  padding: 2rem 2rem;
+}
+.footer {
+  width: 100%;
+  background-color: #2F3130;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  padding: 0 1.5rem;
+}
+.footer .footer_title {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 1.4rem 0;
+  color: #939494;
+  font-size: 1.6rem;
+  font-weight: bold;
+  border-bottom: 0.1rem solid #3E403F;
+}
+.footer .port_direction {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.footer .port_direction .pors_item {
+  display: flex;
+  align-items: center;
+  padding: 1.5rem 0;
+}
+.footer .port_direction .pors_item .apple {
+  background: url(../image/index/apple.png) center no-repeat;
+  background-size: contain;
+}
+.footer .port_direction .pors_item .android {
+  background: url(../image/index/android.png) center no-repeat;
+  background-size: contain;
+}
+.footer .port_direction .pors_item .ports_img {
+  width: 2.3rem;
+  height: 2.3rem;
+  margin-right: 1.5rem;
+}
+.footer .port_direction .pors_item .ports_dec {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-size: 1.4rem;
+  color: #939494;
+}
+.footer .company_infor {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-size: 1.4rem;
+  color: #939494;
+  margin-bottom: 1.7rem;
+}
+.callback {
+  background-color: #fff;
+  width: 100%;
+  padding: 0.8rem 2rem;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+}
+.callback .relation_btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20rem;
+  height: 4rem;
+  background-color: #FF9326;
+  border-radius: 6px;
+}
+.callback .relation_btn span {
+  font-size: 1.3rem;
+  color: #fff;
+}
+.callback .relation_btn .ralation_img {
+  width: 2.2rem;
+  height: 2.2rem;
+  margin-right: 1.6rem;
+  background: url(../image/SecondHandList/user.png) center no-repeat;
+  background-size: contain;
+}
+.callback .attention_btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+  height: 4rem;
+  border-radius: 6px;
+}
+.callback .attention_btn .attention_img {
+  width: 2.2rem;
+  height: 2.2rem;
+  margin-right: 0.7rem;
+  background: url(../image/SecondHandList/xin.png) center no-repeat;
+  background-size: contain;
+}
+.callback .attention_btn span {
+  font-size: 1.3rem;
+  color: #7F7871;
+}

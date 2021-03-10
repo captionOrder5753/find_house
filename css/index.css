@@ -135,11 +135,11 @@ html {
   align-items: center;
   box-sizing: border-box;
   flex-direction: column;
-  border-bottom: 1px solid #ccc;
+  border-bottom: 0.1rem solid #ccc;
   margin-bottom: 0.6rem;
 }
 .some_homes .home_item {
-  border-bottom: 1px solid  red;
+  border-bottom: 0.1rem solid red;
   display: flex;
   align-items: center;
   padding: 2.5rem 0;
@@ -218,7 +218,7 @@ html {
 .attention_links .links_title {
   width: 100%;
   display: flex;
-  border-bottom: 1px solid #FF8A00;
+  border-bottom: 0.1rem solid #FF8A00;
   padding: 1.8rem 4.5rem;
   box-sizing: border-box;
   justify-content: space-between;
@@ -288,7 +288,7 @@ html {
   color: #939494;
   font-size: 1.6rem;
   font-weight: bold;
-  border-bottom: 1px solid #3E403F;
+  border-bottom: 0.1rem solid #3E403F;
 }
 .footer .port_direction {
   width: 100%;

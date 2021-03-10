@@ -1,0 +1,709 @@
+html{
+    font-size: 10px;
+    font-family: "微软雅黑";
+}
+
+.header{
+    box-sizing: border-box;
+    padding: .6rem 3.4rem ;
+    background-color:#FF8A00;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .logo_img{
+        // outline: .1rem solid red;
+        width: 10rem;
+        height: 3rem;
+        background:url(../image/index/logo.jpg)center no-repeat;
+        background-size: contain;
+    }
+    .right{
+        display: flex;
+        align-items: center;
+        .my{
+
+            // outline: .1rem solid red;
+            width: 2.4rem;
+            height: 3rem;
+            background:url(../image/index/my.jpg)center no-repeat;
+            background-size: contain;
+    
+        }
+    
+        .download{
+            margin-left:2.2rem ;
+            // outline: .1rem solid red;
+            width: 2.3rem;
+            height: 3rem;
+            background:url(../image/index/xiazai.jpg)center no-repeat;
+            background-size: contain;
+    
+        }
+    }    
+
+}
+
+.swiper-container{
+    position: relative;
+    width: 100%;
+    height: 19rem;
+    img{
+        width: 100%;
+        height: 19rem;
+    }
+
+    .blur{
+        width: 4.2rem;
+        height: 1.8rem;
+        right: 1.8rem;
+        bottom: 1.3rem;
+        position: absolute;
+        border-radius: .5rem;
+        opacity: 0.5;
+        background-color:#000;
+        z-index: 10;
+    }
+}
+
+
+.home_publicity{
+    background-color: #fff;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 2.5rem 2rem 2rem 2rem;
+    border-bottom: .1rem solid #ccc;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.3rem;
+    // align-items: center;
+    .public_title{
+        width: 100%;
+        span{
+            display: inline-block;
+            width: 24.5rem;
+            font-size:1.8rem ;
+            color: #333;
+            font-weight: bold;
+
+        }
+    }
+
+    .pulic_price{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        span{
+            font-size: 1.5rem;
+            color: #333;
+            b{
+                color:#E24C3F ;
+            }
+        }
+
+        .calculator{
+            width: 1.9rem;
+            height: 2rem;
+            background:url(../image/SecondHandList/phone.png)center no-repeat;
+            background-size: contain;
+            
+        }
+    }
+
+    .pulic_date{
+        width: 100%;
+        margin-bottom: .5rem;
+        span{
+            font-size: 1.3rem;
+            color: #666666;
+        }
+    }
+
+    .pub_tips{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        .tip_item{
+            color:#849AAE ;
+            background-color:#DEE9F0 ;
+            padding:.6rem .3rem ;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 1.3rem;
+        }
+    }
+
+}
+
+
+.home_specific{
+    padding:  0 2.1rem;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.4rem;
+    color: #333;
+    border-top: .1rem solid #ccc;
+    border-bottom: .1rem solid #ccc;
+    background-color: #fff;
+    margin-bottom: 1.3rem;
+
+
+    .specific_item{
+        width: 100%;
+        padding:2rem 0;
+        display: flex;
+        align-items: center;
+        border-bottom: .1rem solid #ccc;
+
+
+    }
+
+    & .specific_item span:first-child{
+        width: 13rem;
+        // background-color: brown;
+        margin-right: 30px;
+    }
+
+    .specific_items{
+        display: flex;
+        align-items: center;
+        padding:2rem 0;
+        width: 100%;
+        padding:2rem 0;
+        border-bottom: .1rem solid #ccc;
+
+    }
+
+    .need_more{
+        color: #999999;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+ & .specific_items:last-child{
+     border: 0;
+ }
+
+    
+
+}
+
+// FF9326
+.home_advantage{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    // padding: ;
+
+    .advantage_item{
+        
+        border-top: .1rem solid #ccc;
+        background-color: #fff;
+        width: 100%;
+        display: flex;
+        box-sizing: border-box;
+        padding: 0 2rem;
+        flex-direction: column;
+        border-bottom: .1rem solid #ccc;
+        margin-bottom: 1.3rem;
+        .advantage_title{
+            width: 100%;
+            display: flex;
+            align-items: center;
+            padding: 1.6rem 0;
+            border-bottom: .1rem solid #ccc;
+            span{
+                font-size: 1.8rem;
+                color: #333;
+                font-weight: bold;
+            }
+            .orange{
+                color:#FF9326 ;
+            }
+    
+        }
+        .advantage_content{
+            width: 100%;
+            box-sizing: border-box;
+         
+            .txt{
+                font-size: 1.3rem;
+                color: #333;
+                border-bottom: .1rem solid #ccc;
+                padding: 2rem 0;
+            }
+
+            .moreH{
+                box-sizing: border-box;
+                width: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                padding: 2rem 0;
+
+            }
+
+
+
+            .some_homes{
+                background-color: #fff;
+                // padding: 0 1rem;
+                display: flex;
+                align-items: center;
+                box-sizing: border-box;
+                flex-direction: column;
+                border-bottom: .1rem solid #ccc;
+                // margin-bottom: .6rem;
+                .home_item{
+                    
+                    &:last-child{
+                        border-bottom:0; 
+                    }
+                    // background-color: brown;
+                    border-bottom:.1rem solid#FF8A00;
+                    display: flex;
+                    align-items: center;
+                    padding: 2.5rem 0;   
+                    box-sizing: border-box;
+                    .left_img{
+                        width: 7.1rem;
+                        height: 7.1rem;
+                      
+                        background:url(../image/SecondHandList/img3.png)center no-repeat;
+                        background-size: contain;
+                        margin-right: 1.3rem;
+                    }
+                    .home_desc{
+                        width: 20rem;
+                        display: flex;
+                      
+                        flex-direction: column;
+                      
+                     
+            
+                        .desc_title{
+                            span{
+                                display: inline-block;
+                                width: 20rem;
+                                font-size:1.5rem;
+                                font-weight: bold;
+                                color: #000;
+                                overflow: hidden;
+                                text-overflow: ellipsis;
+                                white-space: nowrap;
+                            }
+                           
+                        }
+                        .desc_area{
+                            width: 100%;
+                            display: flex;
+                            // justify-content: space-between;
+                            
+                            .st{
+                                font-size: 1.2rem;
+                                color: #000;
+            
+                            }
+                          
+                        }
+            
+                        .desc_address{
+            
+                            display: flex;
+                            // justify-content: space-between;
+                            
+                            .sr{
+                                font-size: 1.4rem;
+                                color: #666666;
+                               
+            
+                            }
+                            .sc{
+                                color: #FF8A00;
+                                font-size: 1.5rem;
+                                font-weight: bold;
+                            }
+                        }
+            
+                        .desc_date{
+                            display: flex;
+            
+                            .tips{
+                                display: block;
+                                background-color: #F4F7F9;
+                                font-size: 1.2rem;
+                                color:  #849AAE;
+                                padding:.8rem .5rem;
+                                border-radius: 2px;
+                                margin-right: .6rem;
+                            }
+            
+                            
+                        }
+                    }
+                }
+            
+            
+            
+                & .home_item:first-child{
+                    .left_img{
+                        background:url(../image/SecondHandList/img1.png)center no-repeat;
+                        background-size: contain;
+            
+                    }
+            
+                  
+            
+                }
+            
+            
+            
+                & .home_item:last-child{
+                    .left_img{
+                        background:url(../image/SecondHandList/img2.png)center no-repeat;
+                        background-size: contain;
+            
+                    }
+            
+                }
+                &:last-child{
+                    border: 0;
+                }
+            }
+
+
+            .specific_item{
+                font-size: 1.3rem;
+                color: #333;
+                width: 100%;
+                padding:2rem 0;
+                display: flex;
+                align-items: center;
+                border-bottom: .1rem solid #ccc;
+        
+        
+            }
+        
+            & .specific_item span:first-child{
+                color: #999999;
+            }
+        
+            .map{
+                margin-top: 2rem;
+                margin-bottom: 2rem;
+                width: 100%;
+                height: 11.5rem;
+                #container{
+                    height: 100%;
+                    width: 100%;
+                }
+            }
+        
+
+            .some_house{
+                background-color: #fff;
+                // padding: 0 1rem;
+                display: flex;
+                align-items: center;
+                box-sizing: border-box;
+                flex-direction: column;
+                border-bottom: .1rem solid #ccc;
+                margin-bottom: .6rem;
+
+                .looter{
+                    display: flex;
+                    flex-direction: column;
+                    width:100%;
+                    // border-bottom: .1rem solid;
+                    .home_item{
+                    
+                        &:last-child{
+                            border-bottom:0; 
+                        }
+                        
+                        // background-color: brown;
+                        // border-bottom:.1rem solid  red;
+                        display: flex;
+                        // align-items: center;
+                        // height: 10.1rem;
+                        // border: .1rem solid black;
+                        align-items: center;
+                        // justify-content: space-evenly;
+                        padding-top: 2.5rem;
+                        padding-left: 2rem;   
+                        box-sizing: border-box;
+                        .left_img{
+                            width: 8.1rem;
+                            height: 8.1rem;
+                            // background-color: crimson;
+                            // outline: .1rem solid black;
+                            background:url(../image/index/img1.jpg)center no-repeat;
+                            background-size: contain;
+                            margin-right: 1.3rem;
+                        }
+                        .home_desc{
+                            width: 18.2rem;
+                            display: flex;
+                            flex-direction: column;
+                            // flex-grow: 1;
+                            // background-color: burlywood;
+                         
+                
+                            .desc_title{
+                                span{
+                                    display: inline-block;
+                                    width: 20rem;
+                                    font-size:1.8rem;
+                                    font-weight: bold;
+                                    color: #000;
+                                    overflow: hidden;
+                                    text-overflow: ellipsis;
+                                    white-space: nowrap;
+                                }
+                               
+                            }
+                            .desc_area{
+                                width: 100%;
+                                display: flex;
+                                justify-content: space-between;
+                                
+                                .st{
+                                    font-size: 1.5rem;
+                                    color: #000;
+                
+                                }
+                                .price{
+                                    color: #FF8A00;
+                                    font-size: 1.5rem;
+                                    font-weight: bold;
+                                }
+                            }
+                
+                            .desc_address{
+                
+                                display: flex;
+                                justify-content: space-between;
+                                
+                                .sr{
+                                    font-size: 1.5rem;
+                                    color: #666666;
+                
+                                }
+                                .sc{
+                                    color: #666666;
+                                    font-size: 1.5rem;
+                                    font-weight: bold;
+                                }
+                            }
+                
+                            .desc_tips{
+                                display: flex;
+                
+                                .tips_item{
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: center;
+                                    padding: .3rem .3rem;
+                                    box-sizing: border-box;
+                                    color: #849AAE;
+                                    background-color: #F4F7F9;
+                                    margin-right: .5rem;
+                                }
+                            }
+                        }
+                    }
+
+                    .reason{
+                        margin-top: .6rem;
+                        margin-bottom: 1.6rem;
+                        width: 100%;
+                        // height: 25px;
+                        box-sizing: border-box;
+                        font-size: 1.2rem;
+                        color: #333;
+                        padding: 1.2rem 0 1.2rem 1rem ;
+                        background-color: #EFEFF4;
+                        position: relative;
+
+                        &::before{
+                            position: absolute;
+                            display: block;
+                            content: "";
+                            width: 0;
+                            height: 0;
+                            border: 1rem solid #EFEFF4;
+                            border-left-color: transparent;
+                            border-right-color: transparent;
+                            border-top-color: transparent;
+                            left: 0;
+                            top:-2rem;
+                            
+
+                        }
+
+                        
+                    }
+
+                }
+
+
+               
+               &:last-child{
+                   border: 0;
+               }
+            
+            }
+
+            
+        }
+
+    }
+
+    & .advantage_item:last-child {
+        background-color: transparent;
+        padding:0 0 ;
+        margin-bottom: 0;
+    }
+
+    & .advantage_item:last-child .advantage_title  {
+        background-color: #fff;
+        box-sizing: border-box;
+        padding: 2rem 2rem;
+    }
+
+    // & .advantage_item:last-child .advantage_title  {
+    //     background-color: #fff;
+    //     box-sizing: border-box;
+    //     padding: 2rem 2rem;
+    // }
+}
+
+
+.footer{
+    width: 100%;
+    background-color: #2F3130;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 0 1.5rem;
+    .footer_title{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        box-sizing: border-box;
+        padding: 1.4rem 0;
+        color: #939494;
+        font-size: 1.6rem;
+        font-weight: bold;
+        border-bottom: .1rem solid #3E403F;
+    }
+
+   .port_direction{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  
+    .pors_item{
+
+        display: flex;
+        align-items: center;
+        padding: 1.5rem 0;
+
+        .apple{
+            background:url(../image/index/apple.png)center no-repeat;
+            background-size: contain;
+        }
+        .android{
+
+            background:url(../image/index/android.png)center no-repeat;
+            background-size: contain;
+        }
+        .ports_img{
+            width: 2.3rem;
+            height: 2.3rem;
+            margin-right: 1.5rem;
+           
+        }
+        .ports_dec{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            font-size: 1.4rem;
+            color: #939494;
+        }
+    }
+
+
+   }
+
+   .company_infor{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        font-size: 1.4rem;
+        color: #939494;
+        margin-bottom: 1.7rem;
+   }
+}
+
+
+.callback{
+    background-color: #fff;
+    width:100%;
+    padding: .8rem 2rem;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+
+    .relation_btn{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 20rem;
+        height: 4rem;
+        background-color: #FF9326;
+        border-radius: 6px;
+        span{
+            font-size: 1.3rem;
+            color: #fff;
+        }
+        .ralation_img{
+            width: 2.2rem;
+            height: 2.2rem;
+            margin-right: 1.6rem;
+            background:url(../image/SecondHandList/user.png)center no-repeat;
+            background-size: contain;
+
+        }
+    }
+
+    .attention_btn{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-grow: 1;
+        height: 4rem;
+        border-radius: 6px;
+
+        .attention_img{
+
+            width: 2.2rem;
+            height: 2.2rem;
+            margin-right: .7rem;
+            background:url(../image/SecondHandList/xin.png)center no-repeat;
+            background-size: contain;
+        }
+        span{
+            font-size: 1.3rem;
+            color: #7F7871;
+        }
+    }
+
+}
